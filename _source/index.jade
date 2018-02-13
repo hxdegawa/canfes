@@ -1,2 +1,73 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+link(rel="stylesheet" href="/main.css")
+
+header
+  div.logo-box
+    img(src="./images/Your_N.svg").logo
+    img(src="./images/Your_N_border_animated.svg").logo-border.visible
+    
+  div.title-text
+    p これは、N高等学校の
+     p.quote 「あなたのNは何ですか？」
+    p という問いへの、代々木通学コース生なりの答えを文化祭にぶつけようという思いがこもったものです。
+    p.pr-1 ある人にとってはNewのN、またある人にとってはNextのNというように人それぞれ違ったNがあります。
+    p.pr-1 あなたも自分のNを探してみてください。
+    
+  span.down.material-icons keyboard_arrow_down
+  
+main
+  
+  div.about
+    h1 開催概要
+    div#map.col-1-2
+
+    div.access.col-1-2
+      h3 場所
+      span N高等学校　代々木キャンパス　別館
+      p 東京都渋谷区代々木２丁目２３−１　ニューステイトメナー3階
+      p.warn ※代々木キャンパス本館での企画へ参加を希望される方は、メイン会場の別館にて整理券を受け取ってください。
+
+      h3 テーマ
+      p.poo 第一回目となる今年のフェステーマは、『君のNは。』です。
+      p どこかで聞いたことあるような気もしますが...( ^o^)
+      
+      h3 校内マップ
+      a(href="./images/map.png") 地図はこちら
+  
+  div.wrapper
+    h1 企画紹介
+
+    p 記念すべき第一回目の今回、行う企画は生徒が全て1から考えています。
+    p 以下は生徒が考え、構成した当日の企画の一部です。
+  
+  div.carousel
+    div.carousel-col
+      h2 board game cafe
+      p 嫌われ者の害虫を押し付けあうゴキブリポーカー等、様々なゲームを取り揃えています！
+      p 中毒性たっぷりのゲームにあなたもハマることでしょう。
+    
+    div.carousel-col
+      h2 Mixed Reality体験
+      p 複合現実の世界へようこそ！ホロレンズを使ったゲームを体験できます。
+      p ホロレンズを使い、現実世界でホログラムを操れ！
+  
+  div.carousel
+    div.carousel-col
+      h2 屋台
+      p タピオカドリンク(300円)
+      p フランクフルト(150円)
+      p 焼きそば(250円)
+      p チョコバナナ(150円)
+      p チュロス(200円)
+
+    
+    div.carousel-col
+      h2 脱出ゲーム
+      p.del 「...開かないッ！！」静まり返った地下室で、閉じ込められてしまう来場者。
+      p 初級、上級の2ルートに分かれながら、様々な問題を解き明かし、地下自習室からの脱出をはかれ
+      p あなたは無事脱出できるのか!?
+      
+  h3 その他の詳細
+  a(href="./info") こちら
+    
+    script(src="./jquery-3.2.1.min.js")
+    script(src="./main.js")

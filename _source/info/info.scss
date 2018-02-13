@@ -1,0 +1,25 @@
+@import "../partial/components";
+
+body{
+  box-sizing: border-box;
+  padding: 20px 15px;
+  
+  main{
+    h1, h3{
+    position: relative;
+    font-weight: 300;
+    margin-left: 1rem;
+    font-size: 1.4em;
+    margin-top: 2em;
+    
+    &:before{
+      content: "";
+      position: absolute;
+      background-color: #29b6f6;
+      width: 3px;
+      height: 100%;
+      left: -1rem;
+    }
+    }
+  }
+}
