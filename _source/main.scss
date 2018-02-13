@@ -162,6 +162,8 @@ main{
   
   #map{
     height: 380px;
+    object-fit: cover;
+    object-position: center;
     margin-bottom: 30px;
   }
   
